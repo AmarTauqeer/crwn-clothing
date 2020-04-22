@@ -28,7 +28,7 @@ const Header = ({ currentUser, hidden }) => (
         </div>
       ) : (
         <Link className='option' to='/signin'>
-          SIGNs IN
+          SIGN IN
         </Link>
       )}
       <CartIcon />
